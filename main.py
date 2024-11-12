@@ -97,7 +97,7 @@ if uploaded_file is not None:
 
     # Retrieve the suggested tags from the candidates
     top_tags = [tag_candidates[i] for i in top_indices]
-    st.write("Suggested Tags:", top_tags)
+    st.write("Suggested Tags/Keywords:", top_tags)
 
     # Delete option
     if st.button("Delete Image"):
