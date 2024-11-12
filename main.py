@@ -11,7 +11,7 @@ model = CLIPModel.from_pretrained("openai/clip-vit-base-patch32")
 processor = CLIPProcessor.from_pretrained("openai/clip-vit-base-patch32")
 
 # Streamlit app
-st.title("Image Upload and Processing with CLIP")
+st.title("Generating image tags using GenAI module")
 
 # File uploader for image upload
 uploaded_file = st.file_uploader("Choose an image...", type=["jpg", "jpeg", "png"])
